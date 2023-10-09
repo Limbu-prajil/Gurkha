@@ -16,8 +16,8 @@ function Navbar() {
                 <i className={`fa ${menuOpen ? 'fa-times' : 'fa-bars'} flex-none w-40 shrink-0 text-center text-3xl text-white
                     bg-gradient-to-r via-red-700 from-blue-800  rounded-t-full rounded-b-full cursor-pointer`}></i>
                     {menuOpen && (
-                            <ul className="table-of-contents">
-                                <li>About</li>
+                            <ul className="table-of-contents list-none p-5 absolute top-64 left-0 bg-gradient-to-r from-red-500 to-blue-500 transform translate-x-2">
+                                <li className="p-10 pr-30 text-white text-16 cursor-pointer hover:bg-opacity-20 hover:bg-white hover:bg-opacity-20">About</li>
                                 <li>Events</li>
                                 <li>Calendar</li>
                                 <li>Contacts</li>
