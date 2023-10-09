@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import logo from '../assets/logo.png'
 
 function Navbar() {
-    
+
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
